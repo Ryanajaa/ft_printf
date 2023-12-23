@@ -3,14 +3,14 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+         #
+#    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/12/23 22:17:24 by jarunota          #+#    #+#              #
-#    Updated: 2023/12/23 22:17:24 by jarunota         ###   ########.fr        #
+#    Created: 2023/12/22 22:52:56 by marvin            #+#    #+#              #
+#    Updated: 2023/12/22 22:52:56 by marvin           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME 	= ft_printf.a
+NAME 	= libftprintf.a
 
 HEADER 	= ft_printf.h
 

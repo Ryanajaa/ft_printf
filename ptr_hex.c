@@ -6,7 +6,7 @@
 /*   By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 21:04:40 by jarunota          #+#    #+#             */
-/*   Updated: 2023/12/23 21:09:59 by jarunota         ###   ########.fr       */
+/*   Updated: 2023/12/24 00:26:20 by jarunota         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,13 @@ int	ft_putptr_rcs(size_t num, int len)
 
 int	ft_putptr(size_t num)
 {
-	return (ft_putptr_rcs(num, 0));
+	if (!num)
+	{
+		write(1, "(nil)", 5);
+		return (5);
+	}
+	write(1, "0x", 2);
+	return (ft_putptr_rcs(num, 2));
 }
 
 int	ft_puthex_rcs(unsigned int num, const char format, int len)

@@ -6,7 +6,7 @@
 /*   By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 20:55:47 by jarunota          #+#    #+#             */
-/*   Updated: 2023/12/23 21:01:40 by jarunota         ###   ########.fr       */
+/*   Updated: 2023/12/24 00:18:24 by jarunota         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,10 @@ int	ft_putstr(char *str)
 
 	len = 0;
 	if (!str)
-		return (0);
+	{
+		write(1, "(null)", 6);
+		return (6);
+	}
 	while (*str)
 		len += write(1, str++, 1);
 	return (len);
