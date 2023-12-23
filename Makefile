@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: marvin <marvin@student.42.fr>              +#+  +:+       +#+         #
+#    By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/12/22 22:52:56 by marvin            #+#    #+#              #
-#    Updated: 2023/12/22 22:52:56 by marvin           ###   ########.fr        #
+#    Created: 2023/12/23 22:17:24 by jarunota          #+#    #+#              #
+#    Updated: 2023/12/23 22:17:24 by jarunota         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
