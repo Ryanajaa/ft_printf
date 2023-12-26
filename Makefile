@@ -14,7 +14,7 @@ NAME 	= libftprintf.a
 
 HEADER 	= ft_printf.h
 
-FLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror
 
 SRCS = ft_printf.c \
 				c_str.c \
