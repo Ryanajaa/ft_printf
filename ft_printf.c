@@ -6,7 +6,7 @@
 /*   By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 21:05:24 by jarunota          #+#    #+#             */
-/*   Updated: 2023/12/24 00:29:20 by jarunota         ###   ########.fr       */
+/*   Updated: 2023/12/24 01:59:51 by jarunota         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ int	ft_validac(va_list *args, char type)
 	if (type == 's')
 		print_len += ft_putstr(va_arg(*args, char *));
 	if (type == 'p')
-	{
 		print_len += ft_putptr(va_arg(*args, size_t));
-	}
 	if (type == 'd' || type == 'i')
 		print_len += ft_putnbr(va_arg(*args, int));
 	if (type == 'u')

@@ -25,9 +25,6 @@ FLAGS = -Wall -Wextra -Werror
 
 all: ${NAME}
 
-%.o: %.c ${HEADER}
-	cc ${FLAGS} -c $< -o $@
-
 ${NAME}: ${OBJS}
 	ar -rc ${NAME} ${OBJS}
 
@@ -39,7 +36,7 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: re fclean clean all .c.o
+.PHONY: re fclean clean all
 
 
 

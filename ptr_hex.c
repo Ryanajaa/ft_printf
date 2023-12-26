@@ -6,7 +6,7 @@
 /*   By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 21:04:40 by jarunota          #+#    #+#             */
-/*   Updated: 2023/12/24 00:26:20 by jarunota         ###   ########.fr       */
+/*   Updated: 2023/12/24 01:59:22 by jarunota         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,8 @@ int	ft_putptr(size_t num)
 {
 	if (!num)
 	{
-		write(1, "(nil)", 5);
-		return (5);
+		write(1, "0x0", 3);
+		return (3);
 	}
 	write(1, "0x", 2);
 	return (ft_putptr_rcs(num, 2));
