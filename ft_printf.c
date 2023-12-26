@@ -6,7 +6,7 @@
 /*   By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 21:05:24 by jarunota          #+#    #+#             */
-/*   Updated: 2023/12/24 01:59:51 by jarunota         ###   ########.fr       */
+/*   Updated: 2023/12/26 23:46:15 by jarunota         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	ft_validac(va_list *args, char type)
 	if (type == 'x' || type == 'X')
 		print_len += ft_puthex(va_arg(*args, unsigned int), type);
 	if (type == '%')
-		print_len += ft_printpercent();
+		print_len += ft_putchar('%');
 	return (print_len);
 }
 

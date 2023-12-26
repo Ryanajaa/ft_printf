@@ -14,14 +14,14 @@ NAME 	= libftprintf.a
 
 HEADER 	= ft_printf.h
 
+CFLAGS = -Wall -Wextra -Werror
+
 SRCS = ft_printf.c \
 				c_str.c \
 				nbr_unbr.c \
 				ptr_hex.c \
 
 OBJS= ${SRCS:.c=.o}
-
-FLAGS = -Wall -Wextra -Werror
 
 all: ${NAME}
 

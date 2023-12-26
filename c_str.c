@@ -6,7 +6,7 @@
 /*   By: jarunota <jarunota@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/23 20:55:47 by jarunota          #+#    #+#             */
-/*   Updated: 2023/12/24 00:18:24 by jarunota         ###   ########.fr       */
+/*   Updated: 2023/12/26 23:45:49 by jarunota         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,6 @@
 int	ft_putchar(int c)
 {
 	return (write(1, &c, 1));
-}
-
-int	ft_printpercent(void)
-{
-	return (write(1, "%", 1));
 }
 
 int	ft_putstr(char *str)

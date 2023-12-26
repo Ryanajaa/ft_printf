@@ -17,7 +17,6 @@
 # include <unistd.h>
 
 int	ft_putchar(int c);
-int	ft_printpercent(void);
 int	ft_putstr(char *str);
 
 int	ft_putnbr_rcs(long int n, int len);
